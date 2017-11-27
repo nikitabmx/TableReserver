@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:background="@android:drawable/alert_light_frame"
+        android:backgroundTint="@android:color/holo_red_light"
+        android:elevation="16dp"
+        app:tabTextAppearance="@style/TextAppearance.AppCompat.Body1">
+
+    </android.support.design.widget.TabLayout>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView"
+        android:layout_alignEnd="@+id/textView"
+        android:layout_marginBottom="35dp"
+        android:layout_marginEnd="14dp"
+        android:elevation="16dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tabLayout"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="27dp"
+        android:layout_marginEnd="111dp"
+        android:elevation="16dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView3"
+        android:layout_alignStart="@+id/textView"
+        android:layout_marginBottom="28dp"
+        android:layout_marginStart="10dp"
+        android:elevation="16dp"
+        android:text="TextView" />
+</RelativeLayout>
