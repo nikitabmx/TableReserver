@@ -10,9 +10,6 @@ import android.view.ViewGroup;
 
 
 /**
- *
- *
- *
  * A simple {@link Fragment} subclass.
  * Activities that contain this fragment must implement the
  * {@link FirstFloor.OnFragmentInteractionListener} interface
