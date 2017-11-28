@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1098911850434",
+    "firebase_url": "https://tablereserver-4aeb3.firebaseio.com",
+    "project_id": "tablereserver-4aeb3",
+    "storage_bucket": "tablereserver-4aeb3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1098911850434:android:d25e517b4ab51713",
+        "android_client_info": {
+          "package_name": "com.example.nekitenzogmailcom.tablereserver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1098911850434-b2ulhv8lk5uvnusirf09qvce4j0cmbuv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nekitenzogmailcom.tablereserver",
+            "certificate_hash": "20d0633bceade42ac6b3b8420dd05ce3aaa8a274"
+          }
+        },
+        {
+          "client_id": "1098911850434-h1sbc4f9rvrborrov7va2pr2ta9hrcnt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1qGAWay35fDvaEYO1UXlIdDCzHB3_k1g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1098911850434-h1sbc4f9rvrborrov7va2pr2ta9hrcnt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
