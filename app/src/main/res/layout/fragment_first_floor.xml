@@ -61,6 +61,7 @@
                                 android:layout_weight="1"
                                 android:backgroundTint="@android:color/holo_blue_light"
                                 android:elevation="0dp"
+                                android:onClick="onFirstTableFirstFloorClick"
                                 android:paddingRight="2dp"
                                 android:text="@string/button1"
                                 android:textAppearance="@style/TextAppearance.AppCompat.Display1"

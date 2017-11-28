@@ -13,17 +13,25 @@
             android:name=".MainActivity"
             android:label="Table Reserving"
             android:theme="@style/AppTheme.NoActionBar">
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.MAIN" />-->
+
+                <!--<category android:name="android.intent.category.LAUNCHER" />-->
+            <!--</intent-filter>-->
+        </activity>
+        <activity
+            android:name=".OldMojoActivity"
+            android:label="@string/title_activity_old_mojo"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".card_activity" />
+
+        <activity android:name=".LoadingActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".OldMojoActivity"
-            android:label="@string/title_activity_old_mojo"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".card_activity"></activity>
     </application>
 
 </manifest>

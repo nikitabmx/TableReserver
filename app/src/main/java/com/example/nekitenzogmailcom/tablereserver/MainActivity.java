@@ -11,6 +11,7 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -23,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
 
     Intent intent;
     public SectionsPagerAdapter mSectionsPagerAdapter;
-
+    String LOG = "MyLogs";
 
     public ViewPager mViewPager;
 
@@ -32,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        Log.d(LOG, "OnCreate у маин активити");
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         // Create the adapter that will return a fragment for each of the three
@@ -56,6 +58,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
+    //метод для создания меню
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
@@ -63,6 +66,7 @@ public class MainActivity extends AppCompatActivity {
         return true;
     }
 
+    //метод для работы с меню
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle action bar item clicks here. The action bar will
@@ -78,9 +82,12 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
+
+
     public static class PlaceholderFragment extends Fragment {
 
         private static final String ARG_SECTION_NUMBER = "section_number";
+
 
         public PlaceholderFragment() {
         }
@@ -97,6 +104,7 @@ public class MainActivity extends AppCompatActivity {
             return fragment;
         }
 
+        //этот метод выбирает вкладку которая должна нажиматься
         @Override
         public View onCreateView(LayoutInflater inflater, ViewGroup container,
                                  Bundle savedInstanceState) {
